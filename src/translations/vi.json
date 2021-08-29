@@ -30,7 +30,7 @@
             "header": "Hệ thống",
             "system-administrator": {
                 "header": "Quản trị hệ thống",
-                "user-manage": "Quản lý người sử dụng",
+                "device-mange": "Quản lý thiết bị",
                 "product-manage": "Quản lý gói",
                 "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
             },
@@ -40,7 +40,7 @@
         }
     },
     "system": {
-        "user-manage": {
+        "device-mange": {
             "fail-to-load-fouser": "Không thể tải về danh sách người dùng",
             "user-id": "Mã người sử dụng",
             "usertype": "Loại người dùng",

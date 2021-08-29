@@ -30,7 +30,7 @@
             "header": "System",
             "system-administrator": {
                 "header": "System Administrator",
-                "user-manage": "User manage",
+                "device-mange": "User manage",
                 "product-manage": "Package manage",
                 "register-package-group-or-account": "Register service package for group/account"
             },
@@ -40,7 +40,7 @@
         }
     },
     "system": {
-        "user-manage": {
+        "device-mange": {
             "fail-to-load-fouser": "Fail to load system users list",
             "user-id": "User ID",
             "usertype": "User type",

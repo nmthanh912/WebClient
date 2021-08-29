@@ -1,4 +1,4 @@
-@import "../styles/common.scss";
+@import '../styles/common.scss';
 
 .navigator-menu {
     display: flex;
@@ -11,7 +11,7 @@
     .menu-group {
         &:hover {
             cursor: pointer;
-            background-color: darken($colormain, 5);
+            background-color: darken($colorsub, 5);
         }
         .menu-group-name {
             line-height: 40px;

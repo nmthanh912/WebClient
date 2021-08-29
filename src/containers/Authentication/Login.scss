@@ -1,0 +1,134 @@
+.login-background {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(
+            91deg,
+            rgba(155, 129, 62, 0.7) 30%,
+            rgba(139, 106, 62, 0.85),
+            rgba(170, 135, 100, 0.7) 62%
+        ),
+        url(../../assets/images/login-img.jpg);
+
+    .login-container {
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 550px;
+        width: 500px;
+
+        .login-content {
+            padding: 20px;
+
+            .login-text {
+                text-align: center;
+                margin-top: 10px;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 15px;
+                color: #9a7327;
+            }
+
+            .login-input {
+                margin: 10px 0;
+
+                .show-password {
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        right: 15px;
+                        top: 10px;
+                    }
+                }
+            }
+
+            label {
+                margin-bottom: 7px;
+            }
+
+            .btn-fix {
+                display: flex;
+                justify-content: center;
+                margin-top: 40px;
+
+                .login-btn {
+                    width: 80%;
+                    margin: 10px 0;
+                    height: 40px;
+                    border-radius: 15px;
+                    outline: none;
+                    border: none;
+                    background: linear-gradient(104deg, #caae68 -20%, #c28636, rgba(170, 135, 100, 0.7) 128%);
+                    color: white;
+                    font-size: 16px;
+                }
+            }
+
+            .fix-items {
+                display: flex;
+                margin-bottom: 10px;
+
+                .text {
+                    vertical-align: middle;
+                }
+                .remember-me {
+                    display: flex;
+                }
+                .form-check-input {
+                    margin-right: 12px;
+                    margin-top: 2.7px;
+                }
+                .forgot-password {
+                    text-align: right;
+                }
+            }
+
+            .errMessage {
+                color: red;
+                font-size: 13px;
+                font-weight: 550;
+            }
+            .social-icons {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+
+                .google {
+                    font-size: 30px;
+                    background: rgb(216, 44, 44);
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    margin-right: 35px;
+                }
+
+                .facebook {
+                    font-size: 30px;
+                    background: rgb(42, 42, 204);
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+
+            .account {
+                padding: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
